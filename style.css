@@ -1,0 +1,92 @@
+header{
+    height: 580px;
+}
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(90deg);
+    height: 300px;
+    width: 300px;
+    border-radius: 175px;
+    z-index: -1;
+    transition-duration: 1s;
+}
+.clock>div{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+.h{
+    height: 7px;
+    width: 70% !important;
+    background: linear-gradient(90deg,rgb(255, 255, 255) 50%,rgba(0,0,0,0) 50%);
+}
+.m{
+    height: 5px;
+    background: linear-gradient(90deg,rgb(82, 82, 82) 50%,rgba(0,0,0,0) 50%);
+}
+.s{
+    height: 3px;
+    background: linear-gradient(90deg,rgb(255, 20, 98) 50%,rgba(0,0,0,0) 50%);
+}
+.cir{
+    background-color: #fff;
+    height: 12px;
+    width: 12px !important;
+    border-radius: 20px;
+}
+.s1{
+    margin: 50px 0;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 60px auto;
+}
+.s1>div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.s1>div>*{    
+    height: 300px;
+    width: 250px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.164);
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.s1>div>div>div{
+    border-radius: 13px;
+    overflow: hidden;
+    height: 215px;
+}
+.s1 img{
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    transition-duration: 1s;
+}
+.s1>div>div:hover img{
+    height: 106%;
+    filter: grayscale(50%);
+}
+.s1 h2{
+    text-align: center;
+    display: block;
+    margin: 0;
+    width: 100%;
+    font-size: 2em;
+    margin: 0;
+}
+@media (max-width:600px) {
+    .clock{
+    height: 200px;
+    width: 200px;
+    }
+}
