@@ -1,0 +1,48 @@
+  html{
+      overflow-y: hidden;
+  }
+form{
+    text-align: center;
+    width: 333px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff15;
+    border-radius: 15px;
+    z-index: -1;
+}
+form>*{
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+    color:  #fff;
+}
+h1{
+    margin-bottom: 0;
+}
+input{
+    background: none;
+    border: 0;
+    border-radius: 24px;
+    transition-duration: .5s;
+    width: 200px;
+    background: #05032c9d;
+}
+input:focus,input:focus-visible{
+    width: 280px;
+    outline: 0;
+    box-shadow: 0px 0px 29px -16px #ffffff5c;
+}
+input[type="submit"]{
+    width: 100px;
+    margin-bottom: 0;
+}
+input[type="submit"]:hover,input[type="submit"]:active{
+    background-color: #ffffff15;
+}
+form>span{
+    display: block;
+    font-size: smaller;
+    margin: 0;
+}
