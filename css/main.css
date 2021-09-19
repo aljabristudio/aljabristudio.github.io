@@ -17,9 +17,9 @@
 html{
     direction: rtl;
     background-color: var(--light);
+    overflow-x: hidden;
 }
 body{
-    
     overflow-x: hidden;
 }
 svg{
