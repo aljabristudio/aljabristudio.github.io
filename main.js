@@ -7,12 +7,14 @@ men.onclick=()=>{
     if(mentf==false){
         ul1.style.width="200px";
         mensvg.style.transform="rotate(180deg)";
-        clo.style.left="-25%";
+        clo.style.width="0px";
+        clo.style.height="0px";
         mentf=true;
     }else{
         ul1.style.width="60px";
         mensvg.style.transform="rotate(0deg)";
-        clo.style.left="50%";
+        clo.style.width="200px";
+        clo.style.height="200px";
         mentf=false;
     }
 }

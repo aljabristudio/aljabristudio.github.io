@@ -5,7 +5,7 @@
 :root{
     --light:#fff;
     --dark:#000;
-    --red:rgba(0, 255, 170, 0.938);
+    --red:rgba(255, 20, 98, 0.73);
 }
 *,::after,::before{
     margin: 0;
@@ -17,10 +17,9 @@
 html{
     direction: rtl;
     background-color: var(--light);
-    overflow-x: hidden;
-    width: 100%;
 }
 body{
+    
     overflow-x: hidden;
 }
 svg{
